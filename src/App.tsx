@@ -10,13 +10,13 @@ import MaterialUI from './components/MaterialUI';
 const App = () => {
   return (
     <div className="App">
-      {/* <LinePlot />
+      <MaterialUI />
+
+      <LinePlot />
       <PiePlot />
       <BarPlot />
       <RadarPlot />
-      <BubblePlot /> */}
-
-      <MaterialUI />
+      <BubblePlot />
     </div>
   );
 }
